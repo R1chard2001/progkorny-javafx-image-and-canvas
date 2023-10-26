@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.program.main.CanvasApplicationController">
+    <ColorPicker fx:id="colorPicker" layoutX="14.0" layoutY="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+        <value>
+          <Color />
+        </value>
+    </ColorPicker>
+    <Canvas fx:id="canvas" height="344.0" layoutX="14.0" layoutY="47.0" width="577.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="47.0" />
+   <Button fx:id="clearCanvasButton" layoutX="147.0" layoutY="14.0" mnemonicParsing="false" text="Clear canvas" AnchorPane.leftAnchor="147.0" AnchorPane.topAnchor="14.0" />
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="172.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.program.main.StartingApplicationController">
+   <Button fx:id="showImageExampleButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="68.0"
+           prefWidth="239.0" text="Image example" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0"
+           AnchorPane.topAnchor="14.0"/>
+   <Button fx:id="showCanvasExampleButton" layoutX="14.0" layoutY="88.0" mnemonicParsing="false" prefHeight="68.0"
+           prefWidth="239.0" text="Canvas example" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0"
+           AnchorPane.topAnchor="88.0"/>
+</AnchorPane>

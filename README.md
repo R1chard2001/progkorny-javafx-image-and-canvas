@@ -1,1 +1,3 @@
-# progkorny-javafx-image-and-canvas
+# Progkörny - javafx gyakorlás
+
+## Canvas és ImageView kontrollelemek
